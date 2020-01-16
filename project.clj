@@ -6,7 +6,7 @@
   :repositories [["clojars" {:sign-releases false}]]
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/clojurescript "1.10.597"]]
-  :min-lein-version "2.7.1"
+  :min-lein-version "2.9.1"
   :source-paths ["src/clj" "src/cljs"]
 
   :plugins [[lein-cljsbuild "1.1.7"]]
