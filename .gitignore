@@ -11,3 +11,4 @@ pom.xml
 .lein-cljsbuild*
 public/out
 *~
+pom.xml.asc

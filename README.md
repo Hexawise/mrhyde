@@ -20,3 +20,11 @@ To use mrhyde from your ClojureScript project,
 add this dependency to your `project.clj`:
 
     [net.drib/mrhyde "0.5.4-SNAPSHOT"]
+
+## Release
+
+Release to [Clojars](https://clojars.org/hexawise/mrhyde) with:
+
+```console
+lein deploy clojars
+```

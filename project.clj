@@ -1,10 +1,10 @@
-(defproject hexawise/mrhyde "0.6.0-alpha1"
+(defproject hexawise/mrhyde "0.6.0-alpha2"
   :description "mrhyde: cljs <-> js interop"
   :url "https://github.com/dribnet/mrhyde"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.10.1"]
-                 [org.clojure/clojurescript "1.10.597"]]
+  :dependencies [[org.clojure/clojure "1.10.1" :scope "provided"]
+                 [org.clojure/clojurescript "1.10.597" :scope "provided"]]
   :min-lein-version "2.9.1"
   :source-paths ["src/clj" "src/cljs"]
 
