@@ -1,9 +1,8 @@
-(defproject net.drib/mrhyde "0.5.6-SNAPSHOT"
+(defproject hexawise/mrhyde "0.6.0-alpha1"
   :description "mrhyde: cljs <-> js interop"
   :url "https://github.com/dribnet/mrhyde"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :repositories [["clojars" {:sign-releases false}]]
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/clojurescript "1.10.597"]]
   :min-lein-version "2.9.1"
